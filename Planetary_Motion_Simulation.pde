@@ -7,11 +7,11 @@ PImage jupiterTexture, saturnTexture, uranusTexture, neptuneTexture;
 
 float G = 6.67430e-11;
 float sunMass = 1.989e30;
-float timeStep = 3600 * 100; // 1 hour in seconds
+float timeStep = 3600; // 1 hour in seconds
 
 float scaleFactor = 1000;
 float translationFactor = 1e8;
-float rotationSpeedFactor = 1e4; // visual speed
+float rotationSpeedFactor = 1; // visual speed
 float visualSpeedFactor = 1;
 
 Planet mercury, venus, earth, mars, jupiter, saturn, uranus, neptune;
